@@ -1,0 +1,52 @@
+#services {
+  background-color: var(--brand-green-light-02);
+
+  .services-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      margin-top: 150px;
+      margin-bottom: 16px;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      color: var(--brand-green);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: center;
+      color: var(--gray-headline);
+      margin-bottom: 60px;
+    }
+  }
+
+  .services-cards {
+    display: flex;
+    /* ajustar os cards e div */
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 24px;
+      gap: 16px;
+      width: 347px;
+      height: 207px;
+      border: 1px solid var(--brand-green);
+      background: var(--white);
+      border-radius: 6px;
+    }
+  }
+}
