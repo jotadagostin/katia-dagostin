@@ -1,5 +1,11 @@
 #services {
   background-color: var(--brand-green-light-02);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 
   .services-titles {
     display: flex;
@@ -34,6 +40,10 @@
 
   .services-cards {
     display: flex;
+    width: 1221px;
+
+    flex-wrap: wrap;
+    gap: 10px;
     /* ajustar os cards e div */
     .card {
       display: flex;
