@@ -50,4 +50,9 @@ header {
     color: var(--brand-green);
     cursor: pointer;
   }
+
+  button:hover {
+    border: 1px solid var(--brand-green-hover);
+    color: var(--brand-green-hover);
+  }
 }

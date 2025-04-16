@@ -1,0 +1,66 @@
+.home {
+  display: flex;
+  background-color: var(--brand-green-light);
+
+  .home-texts {
+    h2 {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      color: var(--brand-green);
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 52px;
+      line-height: 130%;
+      color: var(--gray-headline);
+    }
+
+    p {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      color: var(--gray-headline);
+    }
+
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      background: var(--brand-green);
+      border-radius: 40px;
+      border: none;
+      color: white;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      cursor: pointer;
+      gap: 5px;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: var(--brand-green-hover);
+    }
+  }
+
+  .home-picture {
+    img {
+      width: 420px;
+      height: 549px;
+    }
+  }
+}
