@@ -38,7 +38,7 @@ header {
     }
   }
 
-  button {
+  .button-consulta {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,13 +46,14 @@ header {
     gap: 16px;
     border: 1px solid var(--brand-green);
     border-radius: 40px;
-    background-color: transparent;
+    background: transparent;
     color: var(--brand-green);
     cursor: pointer;
   }
 
-  button:hover {
+  .button-consulta:hover {
     border: 1px solid var(--brand-green-hover);
-    color: var(--brand-green-hover);
+    background: var(--brand-green);
+    color: var(--white);
   }
 }
