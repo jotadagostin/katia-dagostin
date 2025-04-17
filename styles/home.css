@@ -6,6 +6,7 @@
   width: 100%;
   height: 678px;
   position: relative;
+  padding-top: 80px;
 
   .home-texts {
     width: 605px;
@@ -66,7 +67,10 @@
     translate: translateX(-50%);
 
     .number {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
       h1 {
         font-family: "DM Sans";
@@ -85,6 +89,10 @@
         line-height: 150%;
         color: var(--brand-green);
       }
+    }
+
+    .number:nth-child(5) {
+      margin-right: 80px;
     }
   }
 }
