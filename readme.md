@@ -6,8 +6,9 @@ Something simple and direct.
 
 I`m using here:
 
--HTML5 []
--CSS3 []
--Javascript []
+-HTML5 [x]
+-CSS3 [x]
+-Javascript ?[]
+-Mobile Version Html5 and Css3[]
 
 enjoy it!
