@@ -77,3 +77,7 @@ header.scrolled .logo {
 header.scrolled nav a:hover {
   border-bottom: 2px solid white;
 }
+
+[role="navigation"] {
+  display: none;
+}
