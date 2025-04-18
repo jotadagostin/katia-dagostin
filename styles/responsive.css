@@ -4,6 +4,26 @@
     display: none;
   }
 
+  .header-mobile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 10; /* Garante que o header fique acima do conteúdo */
+
+    .logo-mobile {
+      img {
+        position: absolute;
+        top: 45px;
+        left: 160px;
+        width: 150px;
+        height: 37px;
+      }
+    }
+  }
+
   [role="navigation"] {
     display: flex;
   }
@@ -11,9 +31,9 @@
   #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
-    left: 20px;
-    z-index: 1;
+    top: 10px;
+    left: -170px;
+    z-index: 20;
   }
   #menuToggle li:hover {
     color: gray;
@@ -72,7 +92,7 @@
     width: 50vh;
     height: 100vh;
     margin: 0;
-    padding-top: 90px;
+    padding-top: 20px;
     background: var(--brand-green);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -123,10 +143,7 @@
 
   .menu-mobile_icons {
     display: flex;
-    margin-top: 70px;
+    margin-top: 50px;
     gap: 32px;
-  }
-
-  .logo-mobile {
   }
 }
