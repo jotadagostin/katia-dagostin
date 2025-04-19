@@ -81,3 +81,7 @@ header.scrolled nav a:hover {
 [role="navigation"] {
   display: none;
 }
+
+.header-mobile {
+  display: none;
+}

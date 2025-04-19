@@ -7,3 +7,20 @@ window.addEventListener("scroll", function () {
     header.classList.remove("scrolled");
   }
 });
+
+// Fecha o menu ao clicar em qualquer link
+
+const checkbox = document.getElementById("menu-checkbox");
+const menuLinks = document.querySelectorAll("#menu a");
+const consultaBtn = document.querySelector(".button-consulta_mobile");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    checkbox.checked = false;
+  });
+});
+
+// Fecha o menu se clicar no botão de agendar
+consultaBtn.addEventListener("click", () => {
+  checkbox.checked = false;
+});

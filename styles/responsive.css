@@ -17,9 +17,11 @@
       img {
         position: absolute;
         top: 45px;
-        left: 160px;
-        width: 150px;
-        height: 37px;
+        left: 150px;
+        width: 180px;
+        height: 47px;
+        filter: brightness(0) saturate(100%) invert(41%) sepia(14%)
+          saturate(2164%) hue-rotate(126deg) brightness(94%) contrast(101%);
       }
     }
   }
