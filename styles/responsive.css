@@ -1,5 +1,5 @@
 @media screen and (max-width: 390px) {
-  /* header */
+  /* HEADER: */
   header {
     display: none;
   }
@@ -9,15 +9,15 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     position: relative;
+
     z-index: 10; /* Garante que o header fique acima do conteúdo */
 
     .logo-mobile {
       img {
         position: absolute;
-        top: 45px;
-        left: 150px;
+        top: 20px;
+        left: 175px;
         width: 180px;
         height: 47px;
         filter: brightness(0) saturate(100%) invert(41%) sepia(14%)
@@ -34,7 +34,7 @@
     display: block;
     position: relative;
     top: 10px;
-    left: -170px;
+    left: -150px;
     z-index: 20;
   }
   #menuToggle li:hover {
@@ -147,5 +147,106 @@
     display: flex;
     margin-top: 50px;
     gap: 32px;
+  }
+
+  /* HOME:  */
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1480px;
+    padding-top: 30px;
+
+    .home-texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 370px;
+      height: 1080px;
+      transform: translateY(10%);
+
+      h2 {
+        width: 260px;
+        height: 21px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.08em;
+      }
+
+      h1 {
+        width: 327px;
+        height: 132px;
+        text-align: center;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 130%;
+        margin-top: 10px;
+      }
+
+      p {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        margin-top: 50px;
+      }
+    }
+
+    .home-picture {
+      transform: translateY(20%);
+
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .numbers {
+      width: 327px;
+      height: auto;
+      top: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: static;
+      transform: translateY(20%);
+      padding-bottom: 40px;
+
+      img {
+        display: none;
+      }
+
+      .number {
+        padding-top: 40px;
+
+        h1 {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 130%;
+          /* or 62px */
+        }
+        span {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+        }
+      }
+
+      .number:nth-child(5) {
+        margin-right: 0;
+      }
+    }
   }
 }
