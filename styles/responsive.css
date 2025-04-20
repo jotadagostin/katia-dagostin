@@ -249,4 +249,75 @@
       }
     }
   }
+
+  #services {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 2034px;
+
+    padding-top: 0;
+
+    .services-titles {
+      h2 {
+        width: 77px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.08em;
+      }
+
+      h1 {
+        width: 314px;
+        height: 117px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 150%;
+        color: #495057;
+      }
+    }
+
+    .services-cards {
+      width: 327px;
+      height: 1042px;
+    }
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 375px;
+    height: 969px;
+
+    .about-texts {
+      display: flex;
+      flex-direction: column;
+      width: 327px;
+      height: 78px;
+
+      h2 {
+      }
+      h1 {
+      }
+      p {
+        font-size: 16px;
+        line-height: 150%;
+      }
+    }
+
+    .about-picture {
+      display: none;
+    }
+  }
 }
