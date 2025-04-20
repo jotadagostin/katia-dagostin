@@ -250,6 +250,7 @@
     }
   }
 
+  /* SERVICES: */
   #services {
     display: flex;
     flex-direction: column;
@@ -294,11 +295,15 @@
     }
   }
 
+  /* ABOUT: */
   #about {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: start;
+    text-align: center;
     width: 375px;
     height: 969px;
+    position: relative;
 
     .about-texts {
       display: flex;
@@ -317,7 +322,43 @@
     }
 
     .about-picture {
-      display: none;
+      img {
+        position: absolute;
+        width: 327px;
+        height: 282px;
+        left: 24px;
+        top: 587px;
+      }
     }
+  }
+
+  /* CONTACT: */
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+
+    .contact-titles {
+      width: 390px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-picture {
+      img {
+        width: 334px;
+        height: 293px;
+      }
+    }
+  }
+
+  /* FOOTER:  */
+
+  #footer {
+    display: flex;
+    flex-direction: column;
   }
 }
