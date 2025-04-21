@@ -27,7 +27,7 @@ a {
 
 body {
   font-family: "DM Sans", sans-serif;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 
 html {
