@@ -46,6 +46,10 @@
     filter: brightness(0) invert(1); /* deixa a imagem branca */
   }
 
+  .header-mobile.scrolled .button-consulta_mobile a {
+    color: var(--brand-green);
+  }
+
   [role="navigation"] {
     display: flex;
   }

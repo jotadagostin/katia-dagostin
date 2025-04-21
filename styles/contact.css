@@ -20,12 +20,13 @@
     }
 
     span {
+      padding: 5px;
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: 9px;
-      width: 220px;
-      height: 24px;
+      width: 420px;
+      height: 64px;
       margin-bottom: 20px;
     }
 
@@ -40,5 +41,9 @@
       height: 579px;
       border-radius: 20px;
     }
+  }
+
+  button a {
+    color: white;
   }
 }
