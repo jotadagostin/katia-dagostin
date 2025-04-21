@@ -1,4 +1,4 @@
-// Function para efeito scroll do header:
+// Function para efeito scroll do header(desktop):
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
   if (window.scrollY > 50) {
@@ -23,4 +23,15 @@ menuLinks.forEach((link) => {
 // Fecha o menu se clicar no botão de agendar
 consultaBtn.addEventListener("click", () => {
   checkbox.checked = false;
+});
+
+// Function para efeito scroll do header(mobile):
+
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".header-mobile");
+  if (window.scrollY > 50) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
 });

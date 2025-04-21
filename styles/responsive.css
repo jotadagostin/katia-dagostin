@@ -9,7 +9,9 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
     z-index: 10; /* Garante que o header fique acima do conteúdo */
 
@@ -24,6 +26,19 @@
           saturate(2164%) hue-rotate(126deg) brightness(94%) contrast(101%);
       }
     }
+  }
+
+  .header-mobile.scrolled {
+    background-color: #00856f;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* opcional, só pra dar destaque */
+  }
+
+  .header-mobile.scrolled #menuToggle span {
+    background: white;
+  }
+
+  .header-mobile.scrolled .logo-mobile img {
+    filter: brightness(0) invert(1); /* deixa a imagem branca */
   }
 
   [role="navigation"] {
