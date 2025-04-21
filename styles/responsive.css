@@ -301,7 +301,7 @@
     flex-direction: column-reverse;
     justify-content: start;
     text-align: center;
-    width: 375px;
+    width: 390px;
     height: 969px;
     position: relative;
 
@@ -339,18 +339,21 @@
     justify-content: center;
     align-items: center;
     width: 390px;
+    height: 975px;
 
     .contact-titles {
-      width: 390px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 390px;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     .contact-picture {
       img {
         width: 334px;
-        height: 293px;
+        height: 403px;
       }
     }
   }
@@ -360,5 +363,12 @@
   #footer {
     display: flex;
     flex-direction: column;
+
+    .footer-titles {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
