@@ -160,7 +160,12 @@
 
     a {
       padding: 0;
+      color: var(--brand-green);
     }
+  }
+
+  .button-consulta_mobile a {
+    padding: 0;
   }
 
   button:hover {
