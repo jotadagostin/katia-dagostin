@@ -19,6 +19,14 @@ button {
   transition: s ease;
 }
 
+button a {
+  color: var(--brand-green);
+}
+
 button:hover {
   background: var(--brand-green-hover);
+}
+
+button:hover a {
+  color: var(--white);
 }
