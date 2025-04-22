@@ -9,6 +9,6 @@ I`m using here:
 -HTML5 [x]
 -CSS3 [x]
 -Javascript ?[x]
--Mobile Version Html5 and Css3[]
+-Mobile Version Html5 and Css3[x]
 
 enjoy it!
