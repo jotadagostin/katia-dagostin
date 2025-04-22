@@ -3,10 +3,6 @@
     scroll-behavior: smooth;
   }
 
-  body {
-    overflow-y: hidden;
-  }
-
   /* HEADER: */
 
   header {
@@ -386,10 +382,17 @@
     .contact-titles {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
       width: 390px;
       padding-top: 50px;
       padding-bottom: 50px;
+
+      span {
+        width: auto;
+        height: 50px;
+        background-color: green;
+      }
     }
 
     .contact-picture {
