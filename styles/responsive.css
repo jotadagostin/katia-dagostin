@@ -326,6 +326,13 @@
     .services-cards {
       width: 327px;
       height: 1042px;
+
+      .card {
+        p {
+          background-color: pink;
+          width: 295px;
+        }
+      }
     }
   }
 
@@ -391,7 +398,6 @@
       span {
         width: auto;
         height: 50px;
-        background-color: green;
       }
     }
 
